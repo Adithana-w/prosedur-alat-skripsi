@@ -8,3 +8,9 @@ sudo WAZUH_MANAGER='<wazuh IP> WAZUH_AGENT_NAME='<agent name>' dpkg -i ./wazuh-a
 
 ```
 code tersebut di pasang pada mesin yang akan dijadikan agent
+
+-------------------------------------------------------------------------------------------------
+konfigurasi tambahan untuk suricata
+
+untuk menambahkan suricata log yang akan dilempar kedalam wazuh dapat ditambahkan pada ```/var/ossec/etc/ossec.conf.``` pada mesin suricata dan menambahkan 
+![image](https://github.com/user-attachments/assets/281ca988-1707-47dc-bc04-37b8ef8c68e9)
